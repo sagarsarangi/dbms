@@ -1,0 +1,19 @@
+# dependencies
+node_modules
+.pnp
+.pnp.js
+
+# env
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# build
+client/dist
+server/dist
+
+# other
+.DS_Store
+.vercel
