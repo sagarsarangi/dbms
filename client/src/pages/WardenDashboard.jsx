@@ -17,7 +17,7 @@ const PANELS = [{
     label: 'Room Occupancy',
     icon: <BedDouble size={20} strokeWidth={2.5} />,
     context: 'rooms',
-    welcome: `Room Occupancy Management\nView and manage room allocations.\n\n• \`SELECT * FROM rooms\` — view all rooms\n• \`SELECT * FROM rooms WHERE current_occupancy > 0\` — occupied rooms\n• \`UPDATE rooms SET current_occupancy = 0 WHERE room_no = ...\` — reset room`
+    welcome: `Room Occupancy Management\nView and manage room allocations.\n\n• \`SELECT * FROM rooms\` — view all rooms\n• \`SELECT * FROM rooms WHERE current_occupancy > 0\` — occupied rooms\n`
   },
   {
     id: 'mess',
