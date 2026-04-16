@@ -9,22 +9,22 @@
   gap: 12px;
 }
 
-/* Fix select dropdown to match the dark glass theme */
+/* Fix select dropdown for light theme */
 .form-group select {
   appearance: none;
   -webkit-appearance: none;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='rgba(255,255,255,0.5)' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='rgba(15,28,20,0.6)' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
   background-repeat: no-repeat;
   background-position: right 14px center;
   padding-right: 36px;
-  color: white;
+  color: #0f1c14;
   cursor: pointer;
 }
 
-/* Style the option items (browser-native, limited styling) */
+/* Style the option items */
 .form-group select option {
-  background: #1a3830;
-  color: white;
+  background: #ffffff;
+  color: #0f1c14;
 }
 
 /* Tighten form gap slightly for signup since there are more fields */
